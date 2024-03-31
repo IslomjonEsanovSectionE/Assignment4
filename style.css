@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+
+*{
+    font-family: "Oswald", sans-serif;
+}
+
+.hover-effect:hover{
+    transform: scale(1.05);
+    transition: .1s ease-in-out;
+}
+
+
+
+/* hero Section styles */
+.hero-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+  
+#bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+  
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+  
+.hero-content h1 {
+    font-size: 6rem; 
+}
+  
+.btn-primary {
+    margin-top: 20px; 
+}
+
+.text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 4rem;
+}
+
+.word{
+    margin: 10px;
+}
+
+.divider{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#countdown {
+    font-size: 2rem;
+    height: 100px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+
+
+
+
+.about{
+    padding-top: 50px;
+    width: 100%;
+    height: 600px;
+    background-color: #212529;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-text{
+    width: 600px;
+}
+
+
+.speakers{
+    width: 100%;
+    height: 550px;
+    background-color: #FFC107;
+}
+
+
+footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+  

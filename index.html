@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>EsTech Conference</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    
+    <!-- Navbar: -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand text-white hover-effect" href="#">
+              <img src="images/logo.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
+              EsTech
+            </a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-white hover-effect" aria-current="page" href="#" id="home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white hover-effect" href="#">Contact us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle text-white hover-effect" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    More Info
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item text-black" href="#">Deadlines</a></li>
+                    <li><a class="dropdown-item text-black" href="#">Requirements</a></li>
+                    <li><a class="dropdown-item text-black" href="#">Organizators</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item text-black" href="#">How to attend</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+
+      <!-- hero section: -->
+      <div class="hero-section">
+        <!-- Background Video -->
+        <video autoplay muted loop id="bg-video">
+          <source src="images/background.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      
+        <!-- Header Title and Button -->
+        <div class="hero-content">
+          <h1 class="text-center text-white">EsTech Conference</h1>
+          <h3 class="text-center text-white">Developer? Engineer? Mechanic? Join, show, impress. We cant wait</h3>
+          <a href="#" class="btn btn-warning btn-lg">Register Now</a>
+        </div>
+      </div>
+
+
+      <div class="divider bg-warning">
+            <h4 class="text-center pt-2">Hurry up! We wont wait forever! Dont miss the chance!</h4>
+            <div id="countdown"></div>
+      </div>
+
+
+      <!-- about -->
+
+      <div class="about">
+        <div class="about-text">
+            <h1 class="text-white">We Are EsTech</h1>
+            <p class="text-white">The EsTech Conference is a premier
+                 annual gathering that brings together innovators, experts, and enthusiasts from the
+                  fields of technology, entrepreneurship, and sustainability.
+                   This dynamic event is designed to inspire, educate, and collaborate on 
+                   the latest trends, challenges, and solutions shaping the future of our world <br><br>
+                   Who Should Attend:<br>
+
+                   - Technology Enthusiasts<br>
+                   - Entrepreneurs and Startups<br>
+                   - Innovators and Researchers<br>
+                   - Sustainability Advocates<br>
+                   - Investors and Venture Capitalists<br>
+                   - Government and Policy Makers<br>
+                   - Students and Educators<br><br>
+
+                   Join us at the EsTech Conference to explore the intersection of technology, entrepreneurship, 
+                   and sustainability, and be part of shaping a brighter tomorrow!</p>
+        </div>
+        <div class="about-image">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/e1.jpg" class="d-block" alt="..." width="600px" height="400px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/e2.jpg" class="d-block" alt="..." width="600px" height="400px">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/e3.jpg" class="d-block" alt="..." width="600px" height="400px">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+      </div>
+
+
+
+      <!-- partners -->
+      <div class="mt-5 companies">
+        <div class="text">
+            <div class="word">Meet </div>
+            <div class="word"> Our</div>
+            <div class="word bg-warning"> Partners.</div>
+        </div>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col">
+                <img src="images/Google_2015_logo.svg.png" width="550px" height="200px" alt="google">
+              </div>
+              <div class="col pt-3">
+                <img src="images/OpenAI_Logo.svg.png" width="570px" height="150px" alt="Microsoft">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col pt-5">
+                <img src="images/0a06600cc3cedeb49280b54114c88ce6.jpg" height="250px" width="300px" alt="Amazon">
+              </div>
+              <div class="col pt-5">
+                <img src="images/Microsoft_logo_-_2012_(vertical).svg.png" height="300px" width="260px" alt="">
+              </div>
+              <div class="col">
+                <img src="images/Intel_logo_(2006-2020).svg.png" height="250px" width="300px" alt="Amazon">
+              </div>
+            </div>
+          </div>
+
+      </div>
+
+
+      
+      <!-- speakers -->
+
+      <div class="speakers mt-5">
+        <div class="text">
+            <div class="word">Meet </div>
+            <div class="word"> Our</div>
+            <div class="word bg-dark text-warning"> Speakers.</div>
+        </div>
+
+
+
+
+        <div class="container text-center mt-5">
+            <div class="row">
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/r1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Alexander Hughes: A trailblazer in cybersecurity, Alexander Hughes stands as a formidable leader, safeguarding digital realms with unmatched skill and strategic insight. </p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/r2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <p class="card-text">Benjamin Parker: Renowned for groundbreaking AI research, Benjamin Parker leads with unparalleled vision, shaping the future of technology through innovation and expertise.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <img src="images/r3.jpg" class="card-img-top" alt="..." height="200px">
+                    <div class="card-body">
+                      <p class="card-text">
+                        David Malan, Harvard's Computer Science professoe,  a charismatic educator and computer scientist, revolutionized CS education with his engaging teaching style and innovative pedagogy.</p>
+                    </div>
+                  </div>
+              </div>
+            </div>
+          </div>
+
+          
+    
+          
+
+
+      </div>
+
+      <!-- footer -->
+      <footer class="text-center bg-dark text-white" >© 2024 EsTech. All rights reserved.</footer>
+
+
+
+      
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
